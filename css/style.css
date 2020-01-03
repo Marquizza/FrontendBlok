@@ -586,14 +586,14 @@ body {
 }
 
 .screen {
-	margin-top: 57px;
+	margin-top: 57px;	
 }
 
 .page-stat {
 	background-color: #111111;
 	color: #fff;
 	padding-top: 116px;
-	padding-bottom: 114px;
+	padding-bottom: 114px;	
 }
 
 .box-stat {
@@ -636,6 +636,18 @@ body {
 	height: 100%;
 }
 
+.blog-flex:hover .thumb-blog {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Добавить картинку!!!!!!!!!!!!!!!!!!!!!АНАЛОГ
+
+.box-item:hover .box-icon {
+	background-image: url("../img/blue.png");
+	color: #fff;
+	  */
+
+
 .thumb-blog {
 	position: relative;
 	width: 285px;
@@ -662,6 +674,7 @@ body {
 	right: 0;
 	top: 39px;
 }
+
 
 .text-blog {
 	padding: 45px 37px 50px;
@@ -718,3 +731,38 @@ body {
 .text-blog a span {
 	margin-right: 10px;
 }
+
+.btn-social {
+	border: none;
+	padding-top: 9px;
+	padding-bottom: 11px;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.btn-social span {
+	padding-right: 7px;
+}
+
+.comments {
+    background-color: #30a3f0;
+    color: #fff;
+    padding-left: 13px;
+	padding-right: 14px;
+	position: absolute;
+	bottom: 23px;
+	left: 78px;
+}
+
+.like {
+	background-color: #fff;
+	color: #707070;
+	padding-left: 14px;
+	padding-right: 11px;
+	position: absolute;
+	bottom: 23px;
+	right: 77px;
+}
+
