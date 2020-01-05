@@ -183,6 +183,13 @@ body {
 	padding-top: 100px;
 	}
 
+.page-company {
+	background-color: #fdfdfd;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+}
+
 .box {
 	display: flex;
 	border-left: 1px solid #e4e4e4;
@@ -638,15 +645,11 @@ body {
 
 .blog-flex:hover .thumb-blog {
 	background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Добавить картинку!!!!!!!!!!!!!!!!!!!!!АНАЛОГ
-
-.box-item:hover .box-icon {
-	background-image: url("../img/blue.png");
+	background-image: url("../img/eye.png");
+	background-repeat: no-repeat;
+	background-position: center 144px;
 	color: #fff;
-	  */
-
+}
 
 .thumb-blog {
 	position: relative;
@@ -764,6 +767,55 @@ body {
 	position: absolute;
 	bottom: 23px;
 	right: 77px;
+}
+
+.company {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.company-item {
+	display: block;
+	background-image: url("../img/company.png");
+	background-repeat: no-repeat;
+	height: 93px;
+}
+
+.company-one {
+    width: 118px;
+    flex-basis: 118px;
+    background-position: -17px center;
+}
+
+.company-two {
+    width: 126px;
+    flex-basis: 126px;
+    background-position: -213px center;
+}
+
+.company-three {
+    width: 97px;
+    flex-basis: 97px;
+    background-position: -428px center;
+}
+
+.company-four {
+    width: 122px;
+    flex-basis: 122px;
+    background-position: -616px center;
+}
+
+.company-five {
+    width: 92px;
+    flex-basis: 92px;
+    background-position: -831px center;
+}
+
+.company-six {
+    width: 126px;
+    flex-basis: 126px;
+    background-position: -1013px center;
 }
 
 .footer {
