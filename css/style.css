@@ -1111,14 +1111,24 @@ p.team-name {
 		padding-right: 5px;
 		box-sizing: border-box;
     }
-    .info-left {
+     .info-left {
     	flex-direction: column;
+    	align-items: flex-start;
+    }
+    .info-left .info-item {
+         margin-right: 82px;
+	}
+    .info-right {
+    	align-items: flex-end;
     }
     .info-item {
-    	padding-bottom: 10px;
+    	padding-bottom: 10px;    	
     }
     .nav {
-    	flex-wrap: wrap;
+    	flex-wrap: wrap;    	
+    }
+    .nav-item-btn {
+    	display: none;
     }
     .page-mockup {
     	margin-top: 30px;
